@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     database_name: str = "padelug_db"
     
     # API Configuration
-    api_host: str = "0.0.0.0"
+    api_host: str = "localhost"
     api_port: int = 8000
     debug: bool = True
     
